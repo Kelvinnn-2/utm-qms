@@ -35,11 +35,10 @@
           <div class= input>
             <input type="password" name="password2" id="password2"placeholder="Retype password" onkeyup="check();" required />
             <span id="message"></span>
-
+           <input type="submit" name="signup_submit" id=submit value="Sign up" required/><br>
           </div>       
 
-          <input type="submit" name="signup_submit" id=submit value="Sign up" required/><br>
-          
+         
           <a href = "signin.php" style="font-size:15px;"> Already got an account? </a>
       </div>
 
