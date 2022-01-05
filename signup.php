@@ -44,7 +44,7 @@
 
     </form>
 
-  </main><!-- End #main -->
+  </main>
 
 <script>
 var check = function() {
