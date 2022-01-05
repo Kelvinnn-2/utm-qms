@@ -1338,7 +1338,7 @@ section {
   position: relative;
   margin: 5% auto;
   width: 400px;
-  height: 400px;
+  height: 500px;
   background: #FFF;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -1354,10 +1354,19 @@ section {
   height: 400px;
 }
 
+.left span{
+  color: red;
+  font-size: 12px;
+}
+
 h1 {
   margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 28px;
+}
+
+.input {
+  margin-bottom: 20px;
 }
 
 input[type="text"],
@@ -1365,7 +1374,7 @@ input[type="email"],
 input[type="password"] {
   display: block;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  
   padding: 4px;
   width: 220px;
   height: 32px;
@@ -1386,7 +1395,8 @@ input[type="password"]:focus {
 }
 
 input[type="submit"] {
-  margin-top: 28px;
+  margin-top: 14px;
+  margin-bottom: 14px;
   width: 120px;
   height: 32px;
   background: #16a085;
