@@ -1,0 +1,37 @@
+.form-control:required:invalid { 
+	color: gray; 
+}
+
+/* icon in quotation.php */
+.qview{
+	color: lightgrey;
+}
+
+.qview:hover{
+	color: darkgrey;
+}
+
+.qedit{
+	color: blue;
+}
+
+.qedit:hover{
+	color: darkblue;
+}
+
+.qcancel{
+	color: red;
+}
+
+.qcancel:hover{
+	color: darkred;
+}
+
+/* class in quotationadd.php */
+
+.left{
+	text-align: left;
+	font-size: 16px;
+}
+
+
