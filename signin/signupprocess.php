@@ -38,8 +38,8 @@ elseif (mysqli_num_rows($duplicate1)>0)
 //All correct
 else{
 //SQL INSERT (CREATE) Operation
-$sql= "INSERT INTO tb_user (u_username , u_pwd, u_email, u_type) 
-		VALUES('$username','$password','$email','3')";
+$sql= "INSERT INTO tb_user (u_username , u_pwd, u_email, u_type, u_statusID) 
+		VALUES('$username','$password','$email','3', '6')";
 
 
 //Execute SQL
