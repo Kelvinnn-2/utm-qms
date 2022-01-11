@@ -9,7 +9,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 //Get user data based on login information (RETRIEVE) operation
-$sql = "SELECT * FROM tb_user WHERE u_username='$username' AND u_pwd='$password'";
+$sql = "SELECT * FROM tb_user WHERE u_username='$username' AND u_pwd='$password' AND u_statusID='6'";
 
 //Execute SQL
 $result= mysqli_query($con, $sql);  //Execute SQL statement
@@ -26,15 +26,15 @@ if($count == 1) //User found
 
 	if($row['u_type'] == 1) //Admin
 	{
-		header ('Location: ../employer/employer.php');
+		header ('Location: ../employer/dashboard.php');
 	}
 	else if($row['u_type'] == 2)//Employee
 	{
-		header ('Location: ../employee/employee.php');
+		header ('Location: ../employee/dashboard.php');
 	}
 	else if($row['u_type'] == 3)//Customer
 	{
-		header ('Location: ../customer/customer.php');
+		header ('Location: ../customer/dashboard.php');
 	}
 
 }
